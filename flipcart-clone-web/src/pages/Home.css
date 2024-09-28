@@ -1,0 +1,107 @@
+.home-container {
+  padding: 0 1rem;
+}
+
+/* Add a box and background to home categories */
+.home-categories {
+  display: flex;
+  justify-content: space-between;
+  background-color: white; /* Set background color to white */
+  padding: 1rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  border: 2px solid #e0e0e0; /* Light gray border for box effect */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.home-category {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.home-category img {
+  max-width: 100px;
+  height: auto;
+}
+
+.home-category span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.carousel-container {
+  width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.shop-now-btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.shop-now-btn:hover {
+  background-color: #e5533f;
+}
+
+/* Add a box and background to featured brands section */
+.featured-brands {
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 1rem;
+  border: 2px solid #e0e0e0; /* Light gray border for box effect */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.brands-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.brand-card {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; /* White background for brand cards */
+  border: 1px solid #ddd; /* Border for brand cards */
+  border-radius: 8px; /* Rounded corners for brand cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for brand cards */
+}
+
+.brand-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+

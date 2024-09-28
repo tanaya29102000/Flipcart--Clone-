@@ -1,0 +1,195 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f7f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  width: 200px; /* Adjust as needed */
+  margin-left: 80px;
+}
+
+.logo-text img {
+  height: 40px; /* Adjust image height */
+  margin-right:5px; /* Spacing between logo and search icon */
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.navbar-links a {
+  color: #271313;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #3498db; /* Change color on hover */
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  position: relative;
+}
+
+.navbar-actions span {
+  margin-right: 10px;
+}
+
+.navbar-actions a {
+  color: #100e0e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  background-color: #3498db;
+}
+
+.navbar-actions a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.navbar-actions a:hover {
+  color: #1d83b6; /* Change color on hover */
+}
+
+.navbar-cart a {
+  color: #271313;
+  text-decoration: none;
+  position: relative;
+  margin-left: 380px;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-cart a:hover {
+  color: #3498db; /* Change color on hover */
+}
+
+.icon-badge,
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #e74c3c; /* Red color for badges */
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+  color: #271313;
+  text-decoration: none;
+margin-right: 700px;}
+.seller-link {
+  display: flex;
+  align-items: center;
+  color: #271313;
+  text-decoration: none;
+  margin-left: 20px; /* Adjust spacing */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.seller-link img {
+  width: 20px;
+  margin-right: 5px;
+}
+.menu-dots {
+  width: 20px; /* Size of the three-dot menu icon */
+  height: 20px;
+  margin-left: 20px; /* Space between 'Become a Seller' and the dots */
+  cursor: pointer;
+}
+
+.nav-i{
+  margin-right: 200px;
+}
+
+.nav-i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px; /* Adjust based on design */
+  margin-right: 500px; /* Add right margin */
+}
+
+.navbar-cart,
+.cart-text,
+.seller-link {
+  margin-left: 20px; /* Adjust spacing between items */
+}
+
+.dot-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+
+.nav-i {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px; /* Adjust based on design */
+  margin-right: 1000px;
+}
+
+.nav-i a {
+  display: flex;
+  align-items: center;
+  color: #271313;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-i img {
+  margin-left: 15px;
+}
+
+.cart-text {
+  display: flex;
+  align-items: center;
+  color: #271313;
+  text-decoration: none;
+  margin-left: 5px; /* Space between the icon and the text */
+}
+
+.login-buttonn{
+  margin-left: 400px;
+  background-color: #ff5722; /* Orange button */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

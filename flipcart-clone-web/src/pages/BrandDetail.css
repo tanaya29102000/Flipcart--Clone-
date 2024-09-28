@@ -1,0 +1,103 @@
+.brand-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .small-nav {
+    position: relative;
+  }
+  
+  .menu-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .menu-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 10px 0;
+    z-index: 1000;
+    width: 150px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .brand-content {
+    margin-top: 20px;
+  }
+  
+  .brand-content h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .brand-content p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .brand-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  .brand-detail-container {
+    padding: 20px;
+  }
+  
+  .small-nav {
+    margin-bottom: 20px;
+  }
+  
+  .category-list {
+    display: flex;
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .category-list li {
+    margin-right: 15px; /* Space between items */
+    cursor: pointer; /* Pointer cursor for clickable items */
+  }
+  
+  .category-list li:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+  }
+  
